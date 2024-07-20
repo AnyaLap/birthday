@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: rgb(215, 231, 250);
+}
+
+  h1, .text{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(36, 91, 153);
+    font-weight: 600;
+}
+
+.bday{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.birthday{
+    width: 150px;
+    padding: 10px; 
+    text-align: center;
+    font-size: large;
+    color: rgb(250, 167, 222);
+    outline: none;
+   border: 2px solid rgb(250, 167, 222);
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn{
+    font-family: "Montserrat", sans-serif;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(250, 167, 222);
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    font-size: large;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+    cursor: pointer;
+    background-color: rgb(69, 13, 71);
+}
